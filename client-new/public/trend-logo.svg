@@ -1,0 +1,19 @@
+<svg width="146" height="36" viewBox="0 0 146 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="trendGradient" x1="0" y1="0" x2="146" y2="36" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2563EB"/>
+      <stop offset="0.5" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#EC4899"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="144" height="34" rx="17" fill="url(#trendGradient)" opacity="0.08" stroke="url(#trendGradient)" stroke-width="2"/>
+  <path d="M27 11H37.4V15.2H33.5V25H30.9V15.2H27V11Z" fill="#0F172A"/>
+  <path d="M44.055 11H46.595L54.215 22.63V11H56.815V25H54.275L46.655 13.37V25H44.055V11Z" fill="#0F172A"/>
+  <path d="M68.4676 11H71.0876L77.3676 25H74.5276L73.1276 21.61H66.3476L64.9876 25H62.2276L68.4676 11ZM72.0276 19.41L69.7276 13.72L67.3776 19.41H72.0276Z" fill="#0F172A"/>
+  <path d="M85.5531 11H88.1931L93.0131 18.28L97.8031 11H100.433V25H97.8331V15.28L93.0131 22.35L88.1931 15.28V25H85.5531V11Z" fill="#0F172A"/>
+  <path d="M106.403 11H109.003V21.74H114.833V25H106.403V11Z" fill="#0F172A"/>
+  <circle cx="18" cy="18" r="8" fill="url(#trendGradient)" opacity="0.25"/>
+  <path d="M11 18C14.3137 18 17 15.3137 17 12" stroke="url(#trendGradient)" stroke-width="2" stroke-linecap="round"/>
+  <path d="M14 24C17.866 24 21 20.866 21 17" stroke="url(#trendGradient)" stroke-width="2" stroke-linecap="round"/>
+</svg>
+

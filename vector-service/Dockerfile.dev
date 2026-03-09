@@ -1,0 +1,24 @@
+FROM node:20-alpine
+
+WORKDIR /app
+
+# Copy package files
+COPY package*.json ./
+
+# Install all dependencies (including dev for tsx)
+RUN npm install
+
+# Copy source code
+COPY . .
+
+# Create non-root user
+RUN addgroup -g 1001 trend-vector && \
+    adduser -S -u 1001 -G trend-vector trend-vector
+RUN chown -R trend-vector:trend-vector /app
+USER trend-vector
+
+# Expose port
+EXPOSE 8000
+
+# Start in dev mode with tsx watch
+CMD ["npm", "run", "dev"]

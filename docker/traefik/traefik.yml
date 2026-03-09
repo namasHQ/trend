@@ -1,0 +1,27 @@
+# Traefik configuration for TREND development
+api:
+  dashboard: true
+  debug: true
+
+entryPoints:
+  web:
+    address: ":80"
+  websecure:
+    address: ":443"
+
+providers:
+  docker:
+    endpoint: "unix:///var/run/docker.sock"
+    exposedByDefault: false
+    network: trend_trend-network
+
+log:
+  level: INFO
+
+accessLog: {}
+
+# Enable metrics
+metrics:
+  prometheus:
+    addEntryPointsLabels: true
+    addServicesLabels: true

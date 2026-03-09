@@ -1,0 +1,22 @@
+# Environment files (never commit real secrets)
+.env
+.env.*
+!.env.example
+
+**/.env
+**/.env.*
+!**/.env.example
+
+# Docker env files (commit only templates)
+docker/env/*.env
+!docker/env/*.env.example
+
+# Private keys / certs
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Runtime logs
+logs/
+*.log
